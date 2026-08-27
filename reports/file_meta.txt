@@ -1,0 +1,1 @@
+-r--r--r-- 1 kali kali 1474560 Aug 22 20:06 /home/kali/ICDFA_Lab1/evidence/Ch01InChap01.dd
