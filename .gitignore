@@ -1,0 +1,10 @@
+# Ignore heavy raw evidence images
+*.dd
+*.raw
+*.img
+*.iso
+evidence/*.dd
+
+# OS generated files
+.DS_Store
+Thumbs.db
