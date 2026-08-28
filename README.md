@@ -10,5 +10,5 @@ Tools Used
 Kali Linux — Forensic operating environment
 `dd` (GNU coreutils) — Bit-stream physical disk acquisition tool
 The Sleuth Kit (`mmls`, `fls`, `icat`) — Non-destructive file system analysis and metadata extraction
-`md5sum` and`sha256sum` — Cryptographic hash calculation utilities
+`md5sum` and `sha256sum` — Cryptographic hash calculation utilities
 `lsblk` — Block device identification and partition management
