@@ -32,7 +32,7 @@ A structured workspace was established under ~/CIP-B102-Lab5/. Baseline evidence
 Part A - File Signatures and Hex Analysis
 Using xxd, the sample binary file J_ub_law.jpg was inspected to locate standard JPEG boundary markers. A plain hexadecimal representation was generated and subsequently reconstructed back into a functional binary file using xxd -r to demonstrate hexadecimal manipulation and recovery mechanics.
  
-![xxd_header_footer](screenshots/part a/xxd_header_footer.png) 
+![xxd image](screenshots/part a/xxd_header_footer.png) 
  
 
 
