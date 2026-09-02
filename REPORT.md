@@ -32,6 +32,9 @@ A structured workspace was established under ~/CIP-B102-Lab5/. Baseline evidence
 Part A - File Signatures and Hex Analysis
 Using xxd, the sample binary file J_ub_law.jpg was inspected to locate standard JPEG boundary markers. A plain hexadecimal representation was generated and subsequently reconstructed back into a functional binary file using xxd -r to demonstrate hexadecimal manipulation and recovery mechanics.
  
+![xxd_header_footer](screenshots/part a/xxd_header_footer.png) 
+ 
+
 
 Part B - Examine Embedded Metadata-Like Content
 Human-readable ASCII and Unicode string sequences were extracted from J_ub_law.jpg using strings and exiftool to evaluate embedded camera or metadata attributes.
@@ -45,27 +48,41 @@ Encoding Process	Baseline DCT, Huffman coding	Found
 Bits Per Process	8	Found
 Resolution	None	Not Found
 
- 
+![exiftool and string output](exiftool_output.png)
+![exiftool and string output](string_output.png)
 
  
-
 Part C: Direct Data-Unit Examination via The Sleuth Kit (TSK)
 The raw disk image Ch01InChap01.dd was analyzed using low-level TSK utilities to inspect partition structures, file system metadata, inodes, and sector units without mounting the volume.
- 
+
+![partition table](mmls_partition_table.png)
+![partition table](mmls_partition_table2.png)
 
  
-
- 
-
 Part D: Embedded File Discovery (binwalk)
 binwalk was utilized to scan raw byte streams for embedded signatures and nested file structures.
  
+![binwalk](binwalk.png)
 
-Part A - File Signatures and Hex Analysis
+Part E: Prepare the USB Image
+The compressed archive 120M.7z was extracted using 7z x 120M.7z. The extracted image 120M.dd was verified.
 
-Part B - Examine Embedded Metadata-Like Content
+![usb image](usb_image_acquired.png)
+![usb image](usb_image_acquired2.png)
 
 
+Part F: Carve Deleted Files with Scalpel
+Scalpel was configured via a local configuration file (scalpel_custom.conf) enabling rules for JPEG headers (\xff\xd8\xff) and footers (\xff\xd9). Carving execution completed successfully, writing results to recovered/scalpel_output/audit.txt. Two JPEG image files were carved from unallocated space.
 
+![scalpel carving](scalpel_output.png)
+![scalpel carving](scalpel_output2.png)
+![scalpel carving](scalpel_output3.png)
+
+
+Forensic Limitations and  Conclusions
+
+1. Loss of Metadata: Raw file carving bypasses damaged directory allocation tables. Consequently, recovered files (00000000.jpg, 00000001.jpg) lose their original file names, creation timestamps, and directory path context.
+2. File Fragmentation: Scalpel assumes contiguous cluster allocation. If a file is fragmented across non-adjacent clusters, carved outputs may exhibit visual artifacts or corruption past the fragmentation point.
+3. Chain of Custody: Integrity was successfully maintained throughout the examination. All actions were performed on raw image copies, and pre-/post-carving hashes were generated and documented.
 
  
