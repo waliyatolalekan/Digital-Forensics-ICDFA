@@ -1,0 +1,5 @@
+evidence/*
+!evidence/.gitkeep
+*.dd
+*.7z
+*.raw

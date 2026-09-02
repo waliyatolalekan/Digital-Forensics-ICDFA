@@ -1,0 +1,18 @@
+
+Scalpel version 1.60 audit file
+Started at Tue Sep  1 05:58:12 2026
+Command line:
+scalpel -c scalpel_custom.conf -o recovered/scalpel_output/ evidence/120M.dd 
+
+Output directory: /home/kali/CIP-B102-Lab5/recovered/scalpel_output
+Configuration file: scalpel_custom.conf
+
+Opening target "/home/kali/CIP-B102-Lab5/evidence/120M.dd"
+
+The following files were carved:
+File		  Start			Chop		Length		Extracted From
+00000001.jpg    125937936		NO           108783		120M.dd
+00000000.jpg    125829120		NO           217599		120M.dd
+
+
+Completed at Tue Sep  1 05:58:12 2026
