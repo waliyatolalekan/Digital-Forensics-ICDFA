@@ -1,0 +1,2 @@
+Waliyat Olalekan
+Steganography is the technique of concealing secret data within an ordinary, non-secret file or medium to avoid detection. In digital forensics, steganography matters because threat actors, malware, and insider threats use covert channels to exfiltrate sensitive data or hide C2 commands past network security monitoring tools without raising alerts.
