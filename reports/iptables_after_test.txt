@@ -1,0 +1,11 @@
+Chain INPUT (policy DROP 2 packets, 1270 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+1        5   300 DROP       tcp  --  lo     *       0.0.0.0/0            0.0.0.0/0            tcp dpt:80
+2        0     0 DROP       tcp  --  *      *       192.168.40.128       0.0.0.0/0            tcp dpt:80
+3        0     0 DROP       tcp  --  *      *       192.168.40.128       0.0.0.0/0            tcp dpt:80
+4      412 35988 ufw-before-logging-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+5      412 35988 ufw-before-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+6       67  7676 ufw-after-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+7        2  1270 ufw-after-logging-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+8        2  1270 ufw-reject-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+9        2  1270 ufw-track-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
