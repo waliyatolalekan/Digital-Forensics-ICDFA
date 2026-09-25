@@ -1,0 +1,2 @@
+
+This repository contains forensic analysis artifacts, script logs, and carved payload evidence from an offline IEEE 802.11 historical WEP40 packet capture. The 40-bit WEP key was recovered using aircrack-ng to decrypt encrypted wireless traffic and extract higher-layer network endpoints and transferred objects using airdecap-ng and foremost. All analyses were performed strictly in an isolated environment for educational purposes in accordance with course safety rules.
