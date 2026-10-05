@@ -1,0 +1,13 @@
+# Ignore Chrome SQLite History files
+History
+History_working
+hashes.txt
+
+# Ignore all SQLite database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore system & workspace artifacts
+.DS_Store
+*.log

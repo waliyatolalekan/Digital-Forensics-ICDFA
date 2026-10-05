@@ -1,0 +1,1 @@
+This forensic report analyzes a Google Chrome History SQLite database to reconstruct web activity associated with alleged online drug trafficking. Evidence integrity was established via SHA-256 verification and write-protection. Analysis of urls, visits, and downloads tables revealed a workflow spanning listing creation on Craigslist, communication, and file downloads
