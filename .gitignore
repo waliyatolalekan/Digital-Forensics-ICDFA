@@ -2,3 +2,4 @@
 *.raw
 *.mem.1
 get-pip.py
+*shellbags
