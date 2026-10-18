@@ -1,0 +1,1 @@
+This lab docomuentation is about examining a Windows 7 memory image, reconstructing evidence based account of illegal file transfer, using Volatility 2 (python2 vol.py) to identify relevant processes, network artefacts, command history, removable-media records, user-profile evidence, and File Explorer traces. 
