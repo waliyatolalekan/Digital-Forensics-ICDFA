@@ -1,0 +1,20 @@
+* .dd
+*.raw
+*_working.*
+recup_dir.*/
+recovered_file*
+analyzed_evidence/
+hashes.txt
+*_hashes.txt
+rockyou.txt
+* RHINOUSB.dd
+
+
+*.dd
+
+./rhion/rockyou.txt
+./RHINOUSB.dd
+./RHINOUSB.dd_working.raw
+./recup_dir.2/f0106905.txt
+./Digital-Forensics-ICDFA/.git/objects/pack/pack-6839788d78ea188576b93c495a9c78638145245d.pack
+
