@@ -1,0 +1,1 @@
+This project covers a fictional investigation of a USB disk image to determine if deleted files, hidden data, timing of recorded transfers form a defensible sequence concerning imagery that may meet an illegal possession threshold. The investigation procedure consists of disk-image recovery, steganography, FTP, HTTP and Wireshark analysis.
