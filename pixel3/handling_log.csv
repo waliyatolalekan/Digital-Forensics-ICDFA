@@ -1,0 +1,25 @@
+Pixel\ 3.zip (before extraction)
+Case reference - SBT-DF205-C1
+Date and time -  2026-10-25 04:56:48.273860099
+source URL - https://digitalcorpora.s3.amazonaws.com/corpora/mobile/android_10/Non-Cellebrite Extraction/Pixel 3.zip
+Examiner - Waliyat Olalekan
+Size - 5247820897
+sha 256 hash value - 9cc37ebbbc4e918ee5427de1fe1deecc 
+md5 hash value - ca6918ef8b20486b6a5ded15609ac51318f377829480f93be3ba15364a8aa00a
+Evidence item/file name - /home/kali/Digital-Forensics-ICDFA/pixel3/Pixel 3.zip
+Tool and version - Kali linux version 2026.3, GNU sha256sum from coreutils 9.10
+Result - The zip file was succesfully downloaded and cryptographic hashing was carried out on it.
+
+
+
+Pixel\ 3.zip (after extraction) - Pixel 3
+Case reference - SBT-DF205-C1
+Date and time - 2026-10-25 05:10:28.428828161
+source URL - https://digitalcorpora.s3.amazonaws.com/corpora/mobile/android_10/Non-Cellebrite Extraction/Pixel 3.zip
+Examiner - Waliyat Olalekan
+Size - 5247820897
+sha 256 hash value - 1f95cab52072b0e748cd93e6bec1196b369a08439700d5b00773742e7dc9e703 
+md5 hash value - ccce0274fd33297fc3695c30d2011dbf
+Evidence item/file name - /home/kali/Digital-Forensics-ICDFA/pixel3/Pixel 3
+Tool and version - Kali linux version 2026.3, Python 3.14.7, SQLite 3.46.1, ExifTool 13.55, GNU sha256sum from coreutils 9.10
+Result - The zip file was succesfully downloaded and cryptographic hashing was carried out on it.

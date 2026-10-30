@@ -1,0 +1,16 @@
+Event ID,Raw Timestamp,Timestamp Field,Raw Unit or Format,Converted UTC,Artefact,Description,Evidence ID,Interpretation and Limitation
+TL-01,1554407343604,sync_item.timestamp,Unix milliseconds,2019-04-04 19:49:03.604 UTC,gmm_sync.db,Maps saved-place record associated with Raleigh NC,EV-MAPS-02,Record timestamp and location require context; does not prove who entered it
+TL-02,2020:02:09 13:23:53.139167-05:00,DateTimeOriginal,EXIF local time with offset,2020-02-09 18:23:53.139167 UTC,IMG_20200209_132353.jpg,Photo capture time from EXIF,EV-PHOTO-02,EXIF metadata can be altered and does not identify the photographer
+TL-03,1581273702392,sms.date,Unix milliseconds,2020-02-09 19:01:42.392 UTC,mmssms.db,SMS text refers to going to a coffee shop,EV-SMS-01,Message context alone does not establish a meeting or location
+TL-04,1581273788,pdu.date,Unix seconds,2020-02-09 19:03:08 UTC,mmssms.db,MMS text reads No thank you,EV-SMS-01,Interpret alongside surrounding messages
+TL-05,1581521849939,calls.date,Unix milliseconds,2020-02-12 15:37:29.939 UTC,calllog.db,Call-log record for number ending 1037 with duration zero,EV-CALL-01,Call type and zero duration require cautious interpretation
+TL-06,1581521901000,calls.date,Unix milliseconds,2020-02-12 15:38:21 UTC,calllog.db,Call-log record for same number with duration three seconds,EV-CALL-01,Close timing may indicate related call activity but is not proof
+TL-07,1581555164000,calls.date,Unix milliseconds,2020-02-13 00:52:44 UTC,calllog.db,Call-log record for number ending 3247 with duration zero,EV-CALL-01,Call type and zero duration require cautious interpretation
+TL-08,1581555213000,calls.date,Unix milliseconds,2020-02-13 00:53:33 UTC,calllog.db,Call-log record for same number with duration three seconds,EV-CALL-01,Close timing may indicate related call activity but is not proof
+TL-09,2020:02:13 19:50:31.590730-05:00,DateTimeOriginal,EXIF local time with offset,2020-02-14 00:50:31.590730 UTC,IMG_20200213_195030.jpg,Photo with GPS metadata in North Carolina,EV-PHOTO-01,Location metadata does not prove who captured or viewed the photo
+TL-10,1581643741051,calls.date,Unix milliseconds,2020-02-14 01:29:01.051 UTC,calllog.db,Call-log record associated with contact Josh Hickman,EV-CALL-01,Contact association is not independent proof of caller identity
+TL-11,1581643824061,calls.date,Unix milliseconds,2020-02-14 01:30:24.061 UTC,calllog.db,Call-log record associated with contact Josh Hickman,EV-CALL-01,Contact association is not independent proof of caller identity
+TL-12,1581685557104,calls.date,Unix milliseconds,2020-02-14 13:05:57.104 UTC,calllog.db,Call-log record associated with contact Josh Hickman,EV-CALL-01,Compare with other communication artefacts
+TL-13,1581685743277,sms.date,Unix milliseconds,2020-02-14 13:09:03.277 UTC,mmssms.db,SMS reads Wow, the messages sync over between accounts,EV-SMS-01,Text is relevant to account syncing but does not by itself prove unauthorised sharing
+TL-14,1581685808,pdu.date,Unix seconds,2020-02-14 13:10:08 UTC,mmssms.db,MMS text reads That is interesting,EV-SMS-01,Read with preceding SMS and surrounding context
+TL-15,1581691278351,calls.date,Unix milliseconds,2020-02-14 14:41:18.351 UTC,calllog.db,Call-log record associated with contact Josh Hickman,EV-CALL-01,Contact association is not independent proof of caller identity

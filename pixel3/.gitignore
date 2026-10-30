@@ -1,0 +1,8 @@
+
+/Pixel 3.zip
+/Pixel 3/
+
+ SQLite temporary files
+*.db-wal
+*.db-shm
+EOF

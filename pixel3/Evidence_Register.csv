@@ -1,0 +1,16 @@
+Evidence ID,Artifact,Relative Path,Purpose,Recorded SHA256,Notes
+EV-WIFI-01,WifiConfigStore.xml,Pixel 3/data/misc/wifi/WifiConfigStore.xml,capture Wi-Fi configuration,cbd2b0039aa786967740b182c4229bf9e0ce147640f0bc00b93255a9c8613986,Recorded hash from prior examination
+EV-WIFI-02,WifiConfigStore.xml,Pixel 3/data/misc_ce/0/wifi/WifiConfigStore.xml,capture Wi-Fi configuration,3737a8cfbb5a8516ef7112673662e428cf37edf71723deef87b3cc5167bc5b8c,Recorded hash from prior examination
+EV-SMS-01,mmssms.db,Pixel 3/data/data/com.android.providers.telephony/databases/mmssms.db,AOSP SMS and MMS records,cd5452f52933252f9dca9177491e0a316b542755ac7eb40e61b4b5e3c53f1342,Primary database; recorded hash
+EV-SMS-02,mmssms.db,Pixel 3/data/user_de/0/com.android.providers.telephony/databases/mmssms.db,Compare telephony database copies,d0ce9034defe1f2ba0409f1c86947447cd90f414a4fda5d847804d01ef34c827,Recorded hash; examined copy had no SMS/PDU rows
+EV-MAPS-01,gmm_myplaces.db,Pixel 3/data/data/com.google.android.apps.maps/databases/gmm_myplaces.db,Maps saved-place artefacts,9d09ce47a0c03bd5ffaad8a3869e0852d430e915dad852d08855b7a8ca47f7d8,Recorded hash from prior examination
+EV-MAPS-02,gmm_sync.db,Pixel 3/data/data/com.google.android.apps.maps/databases/gmm_sync.db,Maps synchronisation artefacts,2e96f7a1ab550b26b13675ca972f559540c955f52b6e55dd4c71de39d2f59ce2,Recorded hash from prior examination
+EV-MAPS-03,ugc_photos_location_data.db,Pixel 3/data/data/com.google.android.apps.maps/databases/ugc_photos_location_data.db,Maps photo-location metadata,e0c4798fef9e2d55880bfb741114576df8686f46291a7554db5b6acb0d46a00f,Recorded hash from prior examination; examined photo tables were empty
+EV-PHOTO-01,IMG_20200213_195030.jpg,Pixel 3/data/media/0/DCIM/Camera/IMG_20200213_195030.jpg,Photo EXIF and GPS metadata,2ed43a0a7b01a58f89c23263542282d3d5713b5cd2f22d7b3d2f56a109145ea6,Recorded hash from prior examination
+EV-PHOTO-02,IMG_20200209_132353.jpg,Pixel 3/data/media/0/DCIM/Camera/IMG_20200209_132353.jpg,Photo EXIF and GPS metadata,308df52bdab5aa52e9e82b2a853049c688450c2ff6ad76cd75f0c063e61853fa,Recorded hash from prior examination
+EV-PHOTO-03,IMG_20200201_142207.jpg,Pixel 3/data/media/0/DCIM/Camera/IMG_20200201_142207.jpg,Photo metadata examination,e8bc8fd6a1a8843961e7416b65bd203ca9c6b8a1a1f6375c2b0a15b552dc9100,Recorded hash from prior examination; capture metadata not identified
+EV-CALL-01,calllog.db,Pixel 3/data/data/com.android.providers.contacts/databases/calllog.db,Call-log records,Not recorded in current notes,14 call records examined
+EV-MESSAGES-01,bugle_db,Pixel 3/data/data/com.google.android.apps.messaging/databases/bugle_db,Google Messages records,Not recorded in current notes,Database and WAL examined
+EV-DIALER-01,annotated_call_log.db,Pixel 3/data/data/com.google.android.dialer/databases/annotated_call_log.db,Google Dialer call-log comparison,Not recorded in current notes,12 rows compared with AOSP call log
+EV-WA-01,msgstore.db,Pixel 3/data/data/com.whatsapp/databases/msgstore.db,WhatsApp message artefacts,Not recorded in current notes,Database with WAL and SHM examined
+EV-TEXTNOW-01,textnow_data.db,Pixel 3/data/data/com.enflick.android.TextNow/databases/textnow_data.db,TextNow message artefacts,Not recorded in current notes,Messages table examined
