@@ -1,0 +1,1 @@
+This involves the forensic examination of DJI Mavic Air evidence from an Android mobile extaction, a raw internmal microSD image and an expert witness format page. A DJI GO 4 fligtht records, cached video, detailed records and media artefact was identified and compared and a relationship was established between the mobile application and microSD evidence.
